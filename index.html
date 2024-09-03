@@ -37,14 +37,14 @@
             type="text"
             placeholder="Digitar titulo da tarefa"
           />
-          <select class="form__input--priority input__box">
-            <option value="">Selecionar tipo</option>
-            <option value="urgente">Urgente</option>
-            <option value="importante">Importante</option>
-            <option value="normal">Normal</option>
+          <select id="select-dropdown" class="form__input--priority input__box">
+            <option value="" class="">Selecionar tipo</option>
+            <option value="urgent" class="urgent">Urgente</option>
+            <option value="important" class="important">Importante</option>
+            <option value="normal" class="normal">Normal</option>
           </select>
         </div>
-        <button class="form__button--add-task">
+        <button id ="adicionaTarefaBotao" class="form__button--add-task blue">
           Adicionar Tarefa na Lista
         </button>
       </form>
